@@ -1,0 +1,27 @@
+/* Add this CSS in your styles or App.css file */
+
+.navbar {
+  background-color: #eb8fae !important;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #673ab7; 
+}
+
+.navbar-toggler-icon {
+  background-color: #673ab7; 
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler:hover {
+  outline: none;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:hover {
+  color:pink; 
+  background-color: #673ab7; 
+}
